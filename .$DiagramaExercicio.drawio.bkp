@@ -1,0 +1,119 @@
+<mxfile host="Electron" modified="2023-07-15T16:25:06.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="dxCMaklGFCUUpX9i-q_d" version="21.6.1" type="device">
+  <diagram name="Page-1" id="qA8XeJyCZ-70hYggdxKa">
+    <mxGraphModel dx="1828" dy="1671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VanSBgrR6rLzxDPG-mym-4" value="AWS Step Functions workflow" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_step_functions_workflow;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="60" width="230" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-1" target="VanSBgrR6rLzxDPG-mym-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="349" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-15" value="Dynamo db streams" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VanSBgrR6rLzxDPG-mym-13">
+          <mxGeometry x="0.4693" y="-1" relative="1" as="geometry">
+            <mxPoint x="38" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-1" value="ControlTable" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="229" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-2" target="VanSBgrR6rLzxDPG-mym-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-2" value="SalvaRegistroLbd" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="137" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-5" target="VanSBgrR6rLzxDPG-mym-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="18.238095238095184" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-5" value="ManualStarterLbd&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-16.25" y="-60" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-7" target="VanSBgrR6rLzxDPG-mym-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-7" value="RegistroAlteradoLbd" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="313" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-8" target="VanSBgrR6rLzxDPG-mym-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-8" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.step_functions;" vertex="1" parent="1">
+          <mxGeometry x="-20.75" y="134" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-10" target="VanSBgrR6rLzxDPG-mym-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-10" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.step_functions;" vertex="1" parent="1">
+          <mxGeometry x="-20.75" y="310" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-10" target="VanSBgrR6rLzxDPG-mym-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="240" as="sourcePoint" />
+            <mxPoint x="120" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-12" value="Waits for callback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VanSBgrR6rLzxDPG-mym-11">
+          <mxGeometry x="0.0923" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-17" value="Success" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#33A64C;fontColor=#FFFFFF;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=1;fontSize=14;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="-14.25" y="450" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-19" value="Salvar o identificador da task&lt;br&gt;+ fruit name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-30" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-2" target="VanSBgrR6rLzxDPG-mym-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="160" as="sourcePoint" />
+            <mxPoint x="100" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-22" value="Manualmente eu altero um campo de controle do objeto salvo.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="223" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-22" target="VanSBgrR6rLzxDPG-mym-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="268" y="147" as="sourcePoint" />
+            <mxPoint x="339" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-24" value="GenericLambdaRole" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.role;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="-210" width="94.5" height="79.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-5" target="VanSBgrR6rLzxDPG-mym-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" as="sourcePoint" />
+            <mxPoint x="220" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-27" value="GenericLambdaRole" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.role;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="177.25" y="-10" width="94.5" height="79.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-2" target="VanSBgrR6rLzxDPG-mym-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="100" as="sourcePoint" />
+            <mxPoint x="220" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-29" value="GenericLambdaRole" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.role;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="177.25" y="450" width="94.5" height="79.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VanSBgrR6rLzxDPG-mym-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="VanSBgrR6rLzxDPG-mym-29" target="VanSBgrR6rLzxDPG-mym-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351" y="487" as="sourcePoint" />
+            <mxPoint x="350" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

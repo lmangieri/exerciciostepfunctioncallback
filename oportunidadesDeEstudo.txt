@@ -1,0 +1,1 @@
+1) Verificar comportamento do batch_size e do maximum_batching_window_in_seconds no dynamodb streams no evento da lambda.
